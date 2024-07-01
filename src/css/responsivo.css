@@ -1,0 +1,1075 @@
+/* HEADER */
+
+@media screen and (max-width: 1280px) {
+    .header {
+        width: 100%;
+    }
+
+    .header .navegacao {
+        margin: 0;
+    }
+
+    .header .navegacao .btn-informacoes {
+        margin: 15px 40px 0 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header .navegacao {
+        display: none;
+    }
+}
+
+/* MAIN */
+
+@media screen and (max-width:2160px) {
+    .main .sobre-tuzinho {
+        height: 1000px;
+    }
+
+    .next,
+    .prev {
+        left: 900px;
+    }
+
+    .next {
+        left: unset;
+        right: 900px;
+    }
+}
+
+@media screen and (max-width:1880px) {
+
+    .next,
+    .prev {
+        left: 800px;
+    }
+
+    .next {
+        left: unset;
+        right: 800px;
+    }
+}
+
+@media screen and (max-width:1710px) {
+    .main .sobre-tuzinho {
+        height: 1000px;
+    }
+
+    .main .informacoes {
+        left: 0px;
+    }
+
+    .main .sobre-tuzinho .icones-sobre {
+        right: 50px;
+    }
+
+    .next,
+    .prev {
+        left: 500px;
+    }
+
+    .next {
+        left: unset;
+        right: 500px;
+    }
+
+    .main .modulos {
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1370px) {
+    .main {
+        background-repeat: repeat;
+    }
+
+    .main .mentoria {
+        height: 100vh;
+    }
+
+    .main .informacoes {
+        left: 0;
+        height: 370px;
+        width: 500px;
+        margin-left: 30px;
+    }
+
+    .main .maratona {
+        height: 900px;
+    }
+
+    .main .conteudo-maratona {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .mentoria .conteudo {
+        height: 500px;
+    }
+
+    .main .informacoes .titulo-informacoes {
+        font-size: 80px;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .main .informacoes .paragrafo-informacoes {
+        width: 450px;
+        font-size: 14px;
+    }
+
+    .main .informacoes .sub-informacoes {
+        font-size: 25px;
+    }
+
+    .main .conteudo .img-informacoes img {
+        width: 500px;
+        height: 400px;
+    }
+
+    .main .maratona .video-maratona {
+        margin: 20px 0 30px 20px;
+        width: 700px;
+        height: 400px;
+    }
+
+    .main .maratona .titulo-main {
+        display: none;
+    }
+
+    .main .maratona .titulo-top {
+        display: block;
+        text-transform: uppercase;
+        font-family: "Horizon", sans-serif;
+        color: white;
+        font-size: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .maratona .paragrafo-main {
+        text-align: justify;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main .conteudo-maratona .informacao-maratona {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        width: 90%;
+    }
+
+    .main .conteudo-maratona .informacao-maratona .btn-main {
+        margin-top: 30px;
+    }
+
+    .main .modulos {
+        height: 100vh;
+    }
+
+    .main .modulos .titulo-main {
+        font-size: 40px;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .main .sobre-tuzinho {
+        height: 80vh;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre {
+        margin-left: 20px;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre .titulo-main {
+        font-size: 35px;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre .paragrafo-main {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .midia-sobre .img-sobre-tuzinho {
+        height: 500px;
+        width: 500px;
+    }
+
+    .main .sobre-tuzinho .icones-sobre {
+        right: 0px;
+        bottom: -30px;
+    }
+
+    .main .sobre-tuzinho .icones-sobre .card-icones {
+        width: 300px;
+        height: 150px;
+        margin-inline: 30px;
+    }
+
+    .next,
+    .prev {
+        left: 400px;
+    }
+
+    .next {
+        left: unset;
+        right: 400px;
+    }
+
+    .depoimentos .informacao-depoimentos .paragrafo-main {
+        width: 70%;
+    }
+
+    .planos-desktop .cards-desktop {
+        height: 800px;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+
+    .planos-desktop .cards-desktop .itens-planos,
+    .planos-desktop .cards-desktop-workshop .itens-planos {
+        height: 70%;
+    }
+
+    .planos-desktop .cards-desktop {
+        height: 800px;
+      }
+
+    .planos-desktop .cards-desktop .btn-planos-semestral,
+    .planos-desktop .cards-desktop .btn-planos {
+        margin-top: 0px;
+    }
+
+
+}
+
+@media screen and (max-width:1024px) {
+    .main .modulos {
+        height: 90vh;
+    }
+
+    .main .sobre-tuzinho {
+        height: 100vh;
+    }
+
+    .next,
+    .prev {
+        left: 400px;
+    }
+
+    .next {
+        left: unset;
+        right: 400px;
+    }
+
+    .planos .planos-desktop {
+        display: none;
+    }
+
+    .planos .conteudo-mobile {
+        display: block;
+    }
+
+
+    .planos-desktop .cards-desktop .btn-planos-semestral {
+        background: linear-gradient(#D30FA8, #740290, #490CAB, #740290, #D30FA8) padding-box,
+            linear-gradient(to right, #5358E6, #A6177E) border-box;
+        border-radius: 50em;
+        border: 3px solid transparent;
+        position: relative;
+        width: 200px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        color: white;
+    }
+
+    .planos-desktop .cards-desktop .btn-planos-semestral:hover {
+        animation: border-animation 2s infinite;
+    }
+
+    .dropdown-planos {
+        width: 50%;
+        margin: 10px auto;
+        border-bottom: 2px solid #A6177E !important;
+    }
+
+    .dropdown-planos .fundo-premio {
+        width: 100%;
+        height: 50px;
+        background-color: #a6177e;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to right, #5358e6, #a6177e);
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        line-height: 3px;
+        margin-bottom: 14px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .dropdown-planos .fundo-premio::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: rgba(255, 255, 255, 0.3);
+        transform: rotate(45deg);
+        animation: brilho 2s infinite;
+        z-index: -1;
+    }
+
+    .dropdown-planos .fundo-premio .txt-workshop,
+    .dropdown-planos .fundo-premio .span-workshop {
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .accordion {
+        width: 90%;
+    }
+
+    .btn-mobile {
+        background: linear-gradient(#121226, #121226) padding-box,
+            linear-gradient(to right, #5358e6, #a6177e) border-box;
+        border-radius: 50em;
+        border: 3px solid transparent;
+        position: relative;
+        width: 160px;
+        margin: 0 auto;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        color: white;
+        overflow: hidden;
+        animation: pulsar 2s infinite;
+    }
+
+    .btn-mobile::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: rgba(255, 255, 255, 0.3);
+        transform: rotate(45deg);
+        animation: brilho 2s infinite;
+        z-index: -1;
+    }
+
+    .btn-mobile-semestral {
+        background: linear-gradient(#D30FA8, #740290, #490CAB, #740290, #D30FA8) padding-box,
+            linear-gradient(to right, #5358E6, #A6177E) border-box;
+        border-radius: 50em;
+        border: 3px solid transparent;
+        position: relative;
+        width: 160px;
+        margin: 0 auto;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        color: white;
+        overflow: hidden;
+        animation: pulsar 2s infinite;
+    }
+}
+
+@media screen and (max-width: 930px) {
+
+    .contador-vendas {
+        z-index: 9999 !important;
+    }
+
+    .contador-vendas p {
+        color: white;
+        font-size: 10px;
+        margin: 0;
+        font-family: 'horizon', sans-serif;
+    }
+
+    .main .mentoria {
+        height: 70vh;
+    }
+
+    .main .informacoes .titulo-informacoes {
+        font-size: 55px;
+    }
+
+    .main .informacoes .paragrafo-informacoes {
+        width: 400px;
+    }
+
+    .main .maratona {
+        height: 1000px;
+    }
+
+    .main .modulos {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .main .modulos .cards-modulos {
+        flex-direction: column;
+    }
+
+    .main .modulos .cards-modulos .informacao-modulo,
+    .main .modulos .cards-modulos .informacao-modulo-topicos {
+        width: 400px;
+        height: 230px;
+    }
+
+    .main .modulos .cards-modulos .informacao-modulo-topicos {
+        height: 260px;
+    }
+
+    .main .modulos .cards-modulos .txt-card {
+        width: 350px;
+    }
+
+    .main .sobre-tuzinho {
+        height: 950px;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre {
+        flex-direction: column-reverse;
+
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 100%;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre .titulo-main {
+        display: none;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre .paragrafo-main {
+        width: 700px;
+        margin-bottom: 50px;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .midia-sobre .titulo-top {
+        display: block;
+        text-transform: uppercase;
+        font-family: "Horizon", sans-serif;
+        color: white;
+        font-size: 40px;
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sobre-tuzinho .conteudo-sobre .midia-sobre .img-sobre-tuzinho {
+        height: 680px;
+        width: 700px;
+        mix-blend-mode: lighten;
+    }
+
+    .main .sobre-tuzinho .icones-sobre {
+        width: 100%;
+        right: 0;
+        left: 0;
+        margin: 0;
+        bottom: 0;
+    }
+
+    .next,
+    .prev {
+        left: 250px;
+    }
+
+    .next {
+        left: unset;
+        right: 250px;
+    }
+
+    .planos-desktop .cards-desktop {
+        height: 100%;
+    }
+
+    .planos-desktop .cards-desktop .itens-planos {
+        height: 750px;
+    }
+
+    .modal-content {
+        width: 70%;
+        max-width: 600px;
+    }
+
+    .dropdown-planos .fundo-premio {
+        height: 40px;
+    }
+
+    .dropdown-planos .fundo-premio .txt-workshop,
+    .dropdown-planos .fundo-premio .span-workshop {
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .contador-vendas {
+        margin-top: 18px;
+    }
+
+    .contador-vendas .contador-main {
+        display: flex;
+        margin: 0px;
+        color: white;
+        gap: 5px;
+
+    }
+
+    .contador-vendas p {
+        color: white;
+        font-size: 30px;
+        margin: 0;
+        font-family: 'horizon', sans-serif;
+    }
+
+    .contador-vendas .contador-main .numero-contador-main {
+        font-size: 40px;
+    }
+
+    .main .informacoes .titulo-informacoes {
+        font-size: 45px;
+    }
+
+    .main .informacoes .sub-informacoes {
+        font-size: 22px;
+    }
+
+    .main .informacoes .paragrafo-informacoes {
+        width: 290px;
+    }
+
+    .main .conteudo .img-informacoes img {
+        width: 430px;
+        height: 330px;
+    }
+
+    .main .maratona {
+        margin-top: 30px;
+        height: 950px;
+    }
+
+    .main .maratona .video-maratona {
+        margin: 0;
+        width: 600px;
+        height: 400px;
+    }
+
+    .main .modulos .titulo-main {
+        width: 100%;
+    }
+
+    .main .sobre-tuzinho {
+        height: 1000px;
+        margin-top: 50px;
+    }
+
+    .planos .cabecalho-planos .txt-main {
+        width: 60%;
+    }
+
+
+    .perguntas-frequentes .cabecalho-main .txt-main {
+        width: 60%;
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre .paragrafo-main {
+        width: 90%;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .whatsapp-button {
+        bottom: 70px;
+    }
+
+    .contador-vendas {
+        margin: 25px auto;
+    }
+
+    .contador-vendas .contador-main {
+        justify-content: center;
+    }
+
+    .contador-vendas p {
+        text-align: center;
+    }
+
+    .contador-vendas-footer {
+        width: 100%;
+    }
+
+    .main {
+        background-image: url(../imagens/background/Mobile.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .modal-conteudo {
+        width: 90%;
+
+    }
+
+    .contador {
+        gap: 5px;
+        margin: 0;
+    }
+
+    .main .modal .modal-conteudo h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .modal-conteudo .formulario-modal .label-form {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .modal-conteudo p {
+        font-size: 14px;
+
+    }
+
+    .btn-fechar {
+        margin: 0;
+    }
+
+    .contador span {
+        width: 40px;
+        height: 55px;
+        margin-bottom: 20px;
+
+    }
+
+    .contador .numero {
+        font-size: 30px;
+    }
+
+    .contador .dois-pontos {
+        font-size: 20px;
+    }
+
+    .contador .etiqueta {
+        font-size: 10px;
+    }
+
+    .main .mentoria {
+        height: 760px;
+    }
+
+    .main .mentoria .conteudo {
+        height: 100vh;
+    }
+
+    .main .informacoes .btn-desk {
+        display: none;
+    }
+
+    .main .informacoes .btn-mobile {
+        display: block;
+        background: linear-gradient(#121226, #121226) padding-box,
+            linear-gradient(to right, #5358e6, #a6177e) border-box;
+        border-radius: 50em;
+        border: 3px solid transparent;
+        position: relative;
+        width: 160px;
+        margin: 0 auto;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        color: white;
+        overflow: hidden;
+        animation: pulsar 2s infinite;
+    }
+
+    .main .informacoes {
+        top: 320px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .main .informacoes .titulo-informacoes {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main .informacoes .sub-informacoes {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main .informacoes .paragrafo-informacoes {
+        width: 100%;
+        padding-inline: 20px;
+        text-align: center;
+    }
+
+    .main .conteudo .img-informacoes {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .main .conteudo .img-informacoes img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .main .informacoes a {
+        margin: 0 auto;
+    }
+
+    .main .maratona {
+        height: 980px;
+    }
+
+    .main .maratona .titulo-top {
+        font-size: 35px;
+    }
+
+    .main .maratona .informacao-maratona .btn-main {
+        margin-top: 50px;
+    }
+
+    .main .conteudo-maratona .informacao-maratona .btn-desk {
+        display: none;
+    }
+
+    .main .conteudo-maratona .informacao-maratona .btn-mobile {
+        display: block;
+    }
+
+    .main .maratona .video-maratona {
+        width: 350px;
+        height: 280px;
+    }
+
+    .main .maratona .informacao-maratona {
+        width: 100%;
+    }
+
+    .main .maratona .informacao-maratona .paragrafo-main {
+        width: 100%;
+        margin: 20px;
+
+    }
+
+    .main .modulos .cards-modulos .informacao-modulo,
+    .main .modulos .cards-modulos .informacao-modulo-topicos {
+        width: 300px;
+        height: 240px;
+        margin: 0 0 15px 0;
+    }
+
+    .main .modulos .cards-modulos .informacao-modulo-topicos {
+        height: 270px;
+    }
+
+    .main .modulos .cards-modulos .txt-card {
+        width: 250px;
+    }
+
+    .main .modulos .titulo-main {
+        font-size: 35px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .main .sobre-tuzinho {
+        height: 100%;
+        position: static;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre {
+        height: 100%;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre .btn-desk {
+        display: none;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre .btn-mobile {
+        display: block;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .midia-sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .midia-sobre .img-sobre-tuzinho {
+        height: 400px;
+        width: 70%;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .informacao-sobre .paragrafo-main {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .main .sobre-tuzinho .icones-sobre {
+        position: static;
+        height: 100%;
+        margin: 30px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .main .sobre-tuzinho .icones-sobre .icone-1,
+    .main .sobre-tuzinho .icones-sobre .icone-2,
+    .main .sobre-tuzinho .icones-sobre .icone-3,
+    .main .sobre-tuzinho .icones-sobre .icone-4 {
+        width: 100px;
+        height: 100%;
+
+    }
+
+    .main .sobre-tuzinho .icones-sobre .card-icones .icone {
+        width: 50px;
+        height: 40px;
+    }
+
+    .main .sobre-tuzinho .icones-sobre .card-icones .numeros {
+        font-size: 14px;
+        font-family: 'Axiforma', sans-serif;
+        font-weight: bold;
+    }
+
+    .main .sobre-tuzinho .icones-sobre .card-icones h4 {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .main .sobre-tuzinho .icones-sobre .card-icones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 100%;
+        gap: 5px;
+        margin: 0 15px;
+    }
+
+    .depoimentos .informacao-depoimentos .paragrafo-main {
+        width: 90%;
+    }
+
+    .depoimentos .informacao-depoimentos .titulo-main {
+        font-size: 30px;
+    }
+
+    .conteudo-mobile .carousel-inner .carousel-item .video-depo {
+        width: 100%;
+    }
+
+    .conteudo-desk {
+        display: none;
+    }
+
+    .conteudo-mobile {
+        display: block;
+    }
+
+    .carousel-mob {
+        position: relative;
+        max-width: 100%;
+        max-height: 440px;
+        height: 700px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .carousel-mob-slide {
+        display: none;
+        width: 100%;
+        transition: transform 0.5s ease;
+    }
+
+    .video-frame {
+        width: 100%;
+        height: 400px;
+    }
+
+    .controle-carousel {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        color: white !important;
+        text-shadow: 0 1px 3px #a6177e;
+        cursor: pointer;
+        padding: 16px;
+        user-select: none;
+    }
+
+    .anterior {
+        left: 0;
+    }
+
+    .proximo {
+        right: 0;
+    }
+
+    .indicadores-carrossel {
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        height: 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        margin: 0 2px;
+        background-color: #121226;
+        border: 1px solid #a6177e;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+    }
+
+    .active,
+    .dot:hover {
+        background-color: #7F56D9;
+    }
+
+    .dropdown-planos {
+        width: 90%;
+    }
+
+    .planos .cabecalho-planos .titulo-main {
+        font-size: 35px;
+    }
+
+    .planos .cabecalho-planos .txt-main {
+        width: 80%;
+
+    }
+
+    .perguntas-frequentes .cabecalho-main .titulo-main {
+        font-size: 30px;
+    }
+
+    .suporte .footer-mentoria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .suporte .footer-mentoria .direitos-autorais,
+    .suporte .footer-mentoria .icones {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contador-vendas {
+        width: 90%;
+    }
+
+    .main .conteudo .img-informacoes {
+        width: 100%;
+    }
+
+    .main .sobre-tuzinho .conteudo-sobre .midia-sobre .img-sobre-tuzinho {
+        width: 100%;
+    }
+
+    .main .maratona {
+        height: 1000px;
+    }
+
+    .modal-content {
+        width: 97%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .main .maratona .video-maratona {
+        width: 320px;
+        height: 280px;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .main .maratona {
+        height: 1050px;
+    }
+
+    .main .maratona .titulo-top {
+        margin-bottom: 0px;
+
+    }
+}
+
+/* Prevenção pro Safari */
+
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .main .informacoes .btn-informacoes {
+            white-space: nowrap;
+        }
+    }
+}
